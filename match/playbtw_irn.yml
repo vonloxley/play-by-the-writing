@@ -1,0 +1,17 @@
+# espanso match file
+# Author: Niki Hansche
+# USE AT YOUR OWN RISK
+
+matches:
+  # opse plot hook
+  - trigger: ":irnora"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
+            - table
+            - --table
+            - irn_handlung,irn_thema
