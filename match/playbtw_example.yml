@@ -13,5 +13,5 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_example"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_example"
             - example

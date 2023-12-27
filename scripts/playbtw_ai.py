@@ -8,7 +8,9 @@ import argparse
 from openai import OpenAI
 from openai.types import Image
 
-with open(os.path.join(os.environ['CONFIG'], 'config', 'openai.txt'), encoding='utf-8') as file:
+from playbtw_common import *
+
+with open(os.path.join(getPath(), 'config', 'openai.txt'), encoding='utf-8') as file:
     api_key = file.read().strip()
     if api_key == '<Replace entire line with OpenAI API Key>':
         print('OpenAI API KEY NOT Replaced. Paste your OpenAI API KEY in openai.txt file (and make a backup of the file)')
@@ -17,8 +19,6 @@ with open(os.path.join(os.environ['CONFIG'], 'config', 'openai.txt'), encoding='
 client = OpenAI(api_key=api_key)
 import pickle
 import sys
-
-from playbtw_common import *
 
 
 parser = argparse.ArgumentParser(description='Play by the Writing - for Espanso - AI Mode')
@@ -41,7 +41,6 @@ action = args['action']
 
 ai_memory_file = os.path.join(tempfile.gettempdir(), 'playbtw_ai_memory.txt')
 ai_history_file = os.path.join(tempfile.gettempdir(), 'playbtw_ai_chat.txt')
-
 
 def memory_erase():
     if os.path.exists(ai_memory_file):

@@ -63,7 +63,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_ai"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_ai"
             - ai_chat_init
             - --prompt
             - "{{form_ai.prompt}}"
@@ -130,7 +130,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_ai"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_ai"
             - ai_chat
             - --prompt
             - "{{form_ai.prompt}}"
@@ -197,7 +197,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_ai"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_ai"
             - ai_chat_isolate
             - --prompt
             - "{{form_ai.prompt}}"
@@ -215,7 +215,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_ai"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_ai"
             - ai_forget
   - triggers: [":aicall", ":aimemory", ":aihistory", ":ailog"]
     label: "Show ChatGPT conversation history"
@@ -225,7 +225,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_ai"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_ai"
             - ai_knowledge
   - triggers: [":aicall", ":aiimg", ":aiimage", ":dall-e"]
     label: "Generate a Dall-E Image"
@@ -283,7 +283,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_ai"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_ai"
             - ai_image
             - --prompt
             - "{{form_ai.prompt}}"

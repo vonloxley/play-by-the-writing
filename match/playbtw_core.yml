@@ -38,7 +38,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - roll_dice
             - --quantity
             - "{{quantity}}"
@@ -52,7 +52,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - roll_advanced
             - --formula
             - "{{formula}}"
@@ -65,7 +65,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - roll_fudge
   # Roll fudge with bonus.
   - regex: ":df(?P<mods>[+-]?\\d+)\\."
@@ -75,7 +75,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - roll_fudge
             - --mods
             - "{{mods}}"
@@ -187,7 +187,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - draw
             - --table
             - "poker_deck"
@@ -200,7 +200,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - shuffle
             - --table
             - "poker_deck"
@@ -212,7 +212,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - "{{table}}"
@@ -224,7 +224,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - wtable
             - --table
             - "{{table}}"
@@ -236,7 +236,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - list
             - --contains
             - "{{contains}}"
@@ -254,7 +254,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - "{{form1.file1}}"
@@ -266,7 +266,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - list
             - --contains
             - "{{contains}}"
@@ -288,7 +288,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - "{{form1.file1}},{{form1.file2}}"
@@ -300,7 +300,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - list
             - --contains
             - "{{contains}}"
@@ -326,7 +326,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - "{{form1.file1}},{{form1.file2}},{{form1.file3}}"
@@ -338,7 +338,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - wlist
             - --contains
             - "{{contains}}"
@@ -356,7 +356,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - wtable
             - --table
             - "{{form1.file1}}"
@@ -368,7 +368,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - wlist
             - --contains
             - "{{contains}}"
@@ -390,7 +390,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - wtable
             - --table
             - "{{form1.file1}},{{form1.file2}}"
@@ -402,7 +402,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - wlist
             - --contains
             - "{{contains}}"
@@ -428,7 +428,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - wtable
             - --table
             - "{{form1.file1}},{{form1.file2}},{{form1.file3}}"

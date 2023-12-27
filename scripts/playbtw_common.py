@@ -16,10 +16,12 @@ from playbtw_genesys import GenesysDiceRoller
 if 'CONFIG' not in os.environ:
     raise Exception("PBTW Error: CONFIG key not found. Espanso is not installed?")
 
+def getPath():
+    return os.path.join(os.environ['CONFIG'], 'match/packages/playbtw')
 
 # List TXT tables
 def list_tables(tp, contains=''):
-    files = os.listdir(os.path.join(os.environ['CONFIG'], 'tables'))
+    files = os.listdir(os.path.join(getPath(), 'tables'))
     names = []
     for file in files:
         split = os.path.splitext(file)
@@ -31,7 +33,7 @@ def list_tables(tp, contains=''):
 
 # Reads CSV table with exactly one column.
 def read_table(table, override_dir=None):
-    path = os.path.join(override_dir, table+'.txt') if override_dir else os.path.join(os.environ['CONFIG'], 'tables', table+'.txt')
+    path = os.path.join(override_dir, table+'.txt') if override_dir else os.path.join(getPath(), 'tables', table+'.txt')
     if not os.path.exists(path):
         return [f'List not setup: (%s) ' % table.replace('_', ' ')]
     with open(path, encoding='utf-8') as file:
@@ -42,7 +44,7 @@ def read_table(table, override_dir=None):
 # Reads CSV table with exactly two columns. First column must be the max value in such range. Second column the value.
 def read_wtable(table, override_dir=None):
     rows = []
-    path = os.path.join(override_dir, table+'.psv') if override_dir else os.path.join(os.environ['CONFIG'], 'tables', table+'.psv')
+    path = os.path.join(override_dir, table+'.psv') if override_dir else os.path.join(getPath(), 'tables', table+'.psv')
     if not os.path.exists(path):
         return ['Weighted table not found']
     with open(path, encoding='utf-8') as csvfile:

@@ -14,7 +14,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_question_deterministic
@@ -27,7 +27,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_question_deterministic
@@ -42,7 +42,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_question_deterministic
@@ -57,7 +57,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_question_subjective
@@ -70,7 +70,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_question_subjective
@@ -85,7 +85,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_question_subjective
@@ -100,7 +100,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_question_interaction
@@ -113,7 +113,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_question_interaction
@@ -128,7 +128,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_question_interaction
@@ -143,7 +143,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_who
@@ -156,7 +156,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_intent
@@ -169,7 +169,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_activity
@@ -182,7 +182,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_place
@@ -195,7 +195,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_reason
@@ -208,7 +208,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_explain
@@ -221,7 +221,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_subject
@@ -234,7 +234,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_prompt
@@ -247,7 +247,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_prompt
@@ -262,7 +262,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_prompt
@@ -277,7 +277,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_proposal
@@ -290,7 +290,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_proposal
@@ -305,7 +305,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_proposal
@@ -320,7 +320,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_complication
@@ -333,7 +333,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_catalyst
@@ -346,7 +346,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_challenge
@@ -359,7 +359,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - pum_situation
@@ -372,7 +372,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - load_utable
             - --table
             - "pum_nodes_world_events"
@@ -393,7 +393,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - save_utable
             - --table
             - "pum_nodes_world_events"
@@ -407,8 +407,13 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+<<<<<<< HEAD
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - utable
+=======
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
+            - table
+>>>>>>> Expect all files in a package subdirectory
             - --table
             - "pum_nodes_world_events"
   # PUM Important Encounters
@@ -420,7 +425,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - load_utable
             - --table
             - "pum_nodes_things_to_find"
@@ -441,7 +446,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - save_utable
             - --table
             - "pum_nodes_things_to_find"
@@ -455,8 +460,13 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+<<<<<<< HEAD
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - utable
+=======
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
+            - table
+>>>>>>> Expect all files in a package subdirectory
             - --table
             - "pum_nodes_things_to_find"
   # PUM Things to be found
@@ -468,7 +478,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - load_utable
             - --table
             - "pum_nodes_important_encounters"
@@ -489,7 +499,8 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+<<<<<<< HEAD
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - save_utable
             - --table
             - "pum_nodes_important_encounters"
@@ -503,7 +514,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - utable
             - --table
             - "pum_nodes_important_encounters"
@@ -516,7 +527,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - load_utable
             - --table
             - "pum_nodes_pending_questions"
@@ -537,7 +548,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - save_utable
             - --table
             - "pum_nodes_pending_questions"
@@ -551,8 +562,12 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - utable
+=======
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
+            - table
+>>>>>>> Expect all files in a package subdirectory
             - --table
             - "pum_nodes_pending_questions"
   # SUM (GM action, intervention)
@@ -564,7 +579,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_gm_action
@@ -577,7 +592,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_gm_action
@@ -592,7 +607,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_gm_action
@@ -607,7 +622,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_gm_feedback
@@ -620,7 +635,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_gm_feedback
@@ -635,7 +650,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_gm_feedback
@@ -650,7 +665,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_gm_world
@@ -663,7 +678,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_gm_world
@@ -678,7 +693,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_gm_world
@@ -693,7 +708,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_pc_matters
@@ -706,7 +721,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_pc_matters
@@ -721,7 +736,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_pc_matters
@@ -736,7 +751,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_pc_backs
@@ -749,7 +764,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_pc_backs
@@ -764,7 +779,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_pc_backs
@@ -779,7 +794,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_pc_bonds
@@ -792,7 +807,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_pc_bonds
@@ -807,7 +822,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_pc_bonds
@@ -822,7 +837,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_npc_attitude
@@ -835,7 +850,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_npc_attitude
@@ -850,7 +865,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_npc_attitude
@@ -865,7 +880,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_npc_contribution
@@ -878,7 +893,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_npc_contribution
@@ -893,7 +908,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_npc_contribution
@@ -908,7 +923,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_npc_opinion
@@ -921,7 +936,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_npc_opinion
@@ -936,7 +951,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_npc_opinion
@@ -951,7 +966,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_npc_impression
@@ -964,7 +979,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_npc_impression
@@ -979,7 +994,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_npc_impression
@@ -994,7 +1009,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_npc_talks
@@ -1007,7 +1022,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_npc_talks
@@ -1022,7 +1037,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_npc_talks
@@ -1037,7 +1052,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_npc_truth
@@ -1050,7 +1065,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_npc_truth
@@ -1065,7 +1080,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_npc_truth
@@ -1080,7 +1095,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_stereo
@@ -1093,7 +1108,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_oracle_action
@@ -1106,7 +1121,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_oracle_adjective
@@ -1119,7 +1134,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_oracle_subject
@@ -1132,7 +1147,7 @@ matches:
         type: script
         params:
           args:
-            - "%CONFIG%/scripts/playbtw_core"
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
             - table
             - --table
             - sum_oracle_all
