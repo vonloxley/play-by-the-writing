@@ -21,6 +21,7 @@ matches:
             Fudge roll+ → :df+4.
             Poker shuffle → :shuffle
             Poker draw → :draw
+            Tarot draw → :tarot
             Roll table → :list or :tables
             Roll w. tables → :wlist or :wtables
             Complete AI → :aicomplete
@@ -191,6 +192,16 @@ matches:
             - draw
             - --table
             - "poker_deck"
+  # Draw from card deck (no replacement)
+  - triggers: [":tarot"]
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
+            - tarot
   # Draw from card deck (no replacement)
   - trigger: ":shuffle"
     label: "Shuffle deck"

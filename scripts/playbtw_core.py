@@ -10,7 +10,7 @@ from playbtw_common import *
 sys.stdout.reconfigure(encoding="utf-8")
 
 parser = argparse.ArgumentParser(description='Play by the Writing - Oracle for Espanso')
-parser.add_argument('action', type=str, help='|action|description|table|wtable|roll_dice|roll_advanced|roll_fudge|shuffle|draw|list|wlist|load_utable|save_utable|utable|')
+parser.add_argument('action', type=str, help='|action|description|table|wtable|roll_dice|roll_advanced|roll_fudge|shuffle|draw|tarot|list|wlist|load_utable|save_utable|utable|')
 parser.add_argument('--mods', type=int, default=0, help='Modifier, Numeric, various use cases')
 parser.add_argument('--mode', type=str, default=None, help='Roll mode, supports normal|adv|dis')
 parser.add_argument('--table', type=str, help='Random Table Key')
@@ -79,6 +79,8 @@ elif action == 'draw':
           .replace('Clubs', '♣')
           .replace('Joker', '🃏')
           )
+elif action == 'tarot':
+    print(draw_card('deck_tarot'))
 elif action == 'list':
     print(list_tables('.txt', contains=args['contains'].strip()))
 elif action == 'wlist':
