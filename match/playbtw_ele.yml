@@ -26,3 +26,27 @@ matches:
             - table
             - --table
             - ele_complication
+
+  - trigger: ":eledesc"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
+            - table
+            - --table
+            - ele_description
+
+  - trigger: ":eleora"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - "%CONFIG%/match/packages/playbtw/scripts/playbtw_core"
+            - table
+            - --table
+            - ele_action, ele_description, ele_theme
